@@ -2,5 +2,8 @@
   (:use [keygen.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest gen-test
+  (-main 512 "id"))
+
+(deftest de-ser-test
+  (deserialize "id"))

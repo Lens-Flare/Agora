@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"soc",
+				"socketchat_alluser"
+			],
+			[
+				"so",
+				"socketchat_leftrow"
+			],
+			[
+				"socketchat",
+				"socketchat_table"
+			],
+			[
 				"n",
 				"n"
 			],
@@ -47,14 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 891,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -80,6 +88,14 @@
 	},
 	"file_history":
 	[
+		"/Users/firelizzard/Documents/Programming/Lens Flare/Agora/Clojure/ws/ws-intro-client/main.css",
+		"/Users/firelizzard/Documents/Programming/Lens Flare/Agora/Clojure/ws/ws-intro-client/index.html",
+		"/Users/firelizzard/Documents/Programming/Lens Flare/Agora/Clojure/ws/ws-intro-client/main.js",
+		"/Users/firelizzard/Dropbox/Sharing/SharedMisc/Development/Electronics/DC-DC Supply/subs/LM339.sub",
+		"/Users/firelizzard/Dropbox/Sharing/SharedMisc/Development/Electronics/DC-DC Supply/subs/LM741.sub",
+		"/Users/firelizzard/Dropbox/Sharing/SharedMisc/Development/Electronics/DC-DC Supply/subs/TL082.sub",
+		"/Users/firelizzard/Dropbox/Sharing/SharedMisc/Development/Electronics/DC-DC Supply/revision0.net",
+		"/opt/local/share/ng-spice/scripts/spinit",
 		"/Users/firelizzard/Documents/Programming/Lens Flare/Agora/ws/ws-intro-client/untitled",
 		"/Applications/Arduino.app/Contents/Resources/Java/hardware/teensy/cores/teensy3/usb_serial.h",
 		"/Users/firelizzard/Dropbox/Sharing/SharedMisc/Development/Arduino/Libraries/TeensyARMMonitor/trees/io.c",
@@ -128,6 +144,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this",
+			" /",
 			"==",
 			"__node",
 			"parent",
@@ -153,6 +171,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"self",
+			"/",
 			"	",
 			"\\t",
 			"TeensyARMMonitor"
@@ -166,35 +186,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 891,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								891,
-								891
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
