@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	dest.sin_port = 61803;
 	
 	struct hostent *host;
-	host = gethostbyname("chat.firelizzard.com");
+	host = gethostbyname(argv[1]);
 	if (!host)
 		error("hostname lookup failed");
 	

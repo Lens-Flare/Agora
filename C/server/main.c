@@ -28,7 +28,7 @@ void error(const char *msg) {
 
 int main(int argc, char *argv[]) {
 	struct socket_t sock;
-	setup(&sock, "chat.firelizzard.com", 61803);
+	setup(&sock, argv[1], 61803);
 	serve(&sock);
 	close(sock.fd);
 	return 0;
